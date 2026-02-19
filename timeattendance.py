@@ -47,8 +47,8 @@ while True:
         if len(results) > 0 and not results[0].empty:
 
             # ดึงชื่อจาก Path ของไฟล์ (ชื่อโฟลเดอร์)
-            path = results[0]['identity'][0]
-	    name = os.path.basename(os.path.dirname(path))
+            path = results[0]['identity'][0] 
+            name = os.path.basename(os.path.dirname(path))
 
             # วาดกรอบและชื่อ
             source_x = results[0]['source_x'][0]
